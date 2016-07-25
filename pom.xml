@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     
     <properties>
-        <crypto.version>1.0.0-SNAPSHOT</crypto.version>
+        <crypto.version>1.0.0</crypto.version>
         <junit.version>4.12</junit.version>
         <jna.version>4.2.2</jna.version>
 
@@ -117,10 +117,10 @@
         </plugins>
     </build>
     <repositories>
-        <repository>
-            <id>apache-snapshot</id>
-            <name>Apache SNAPSHOT</name>
-            <url>https://repository.apache.org/content/repositories/snapshots/</url>
+		<repository>
+            <id>apache-release</id>
+            <name>Apache RELEASE</name>
+            <url>https://repository.apache.org/service/local/repositories/orgapachecommons-1189/content/</url>
         </repository>
     </repositories>
 </project>
