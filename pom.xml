@@ -120,7 +120,7 @@
 		<repository>
             <id>apache-release</id>
             <name>Apache RELEASE</name>
-            <url>https://repository.apache.org/service/local/repositories/orgapachecommons-1189/content/</url>
+            <url>https://repository.apache.org/service/local/repositories/orgapachecommons-1191/content/</url>
         </repository>
     </repositories>
 </project>
